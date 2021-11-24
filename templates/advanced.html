@@ -1,0 +1,24 @@
+{% extends ("layout.html")%}
+
+{% block body %}
+    <body>
+        <img src="/static/Meta-logo.png" class="adlogo">
+        <form action="https://www.google.com/advanced_search" class="adsearch" name="f">
+            <p style="font-family:'Helvetica', serif; color: blue;">Please fill in one or more response.</p>
+            <input class="adsearchbar" type="text" placeholder="All these words..." name="as_q">
+            <input class="adsearchbar" type="text" placeholder="Exact word or phrase..." name="as_epq">
+            <input class="adsearchbar" type="text" placeholder="Any of these words..." name="as_oq">
+            <input class="adsearchbar" type="text" placeholder="None of these words..." name="as_eq">
+            <input class="search-btn" type="submit" value="Advanced Search">
+        </form>
+        <div class="links">
+            <form class="linkbar" action="/" method="GET">
+                <input class="link-btn" type="submit" value="Meta Search">
+            </form>
+            <form class="linkbar" action="/image" method="GET">
+                <input class="link-btn" type="submit" value="Search Image">
+            </form>
+        </div>
+        <a class="foot">WE TRACK EVERYTHING</a>      
+    </body>
+{% endblock %}

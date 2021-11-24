@@ -1,0 +1,244 @@
+
+
+body{
+    background-color: lightblue;
+    font-family: helvetica, serif;
+    font-weight: bolder;
+}
+
+.logo{
+    width: 45%;
+    margin-left: 6%;
+}
+.adlogo{
+    position: absolute;
+    width: 25%;
+    margin: 2%;
+}
+
+.search{
+    display: grid;
+    gap: 25px;
+    position: absolute;
+    top: 30%;
+    left: 31%;
+    align-items: center;
+}
+
+.adsearch{
+    position: absolute;
+    top: 40%;
+    left: 33.5%;
+    margin-right: 30%;
+    align-items: center;
+}
+.searchbar{
+    width: 51%;
+    background-color: cyan;
+    border: orangered;
+    border-radius: 25px;
+    border-color: white;
+    color: orangered;
+    padding: 15px 20px;
+    margin-right: 5px;
+    transition: all .2s ease-in-out;
+}
+.adsearchbar{
+    width: 400px;
+    background-color: cyan;
+    border: orangered;
+    border-radius: 20px;
+    border-color: white;
+    color: orangered;
+    padding: 10px 20px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    transition: all .2s ease-in-out;
+}
+.searchbar:hover{
+    box-shadow: 0px 0px 5px 1px rgb(135, 143, 255);
+    transition: all .2s ease-in-out;
+}
+.adsearchbar:hover{
+    box-shadow: 0px 0px 5px 1px rgb(135, 143, 255);
+    transition: all .2s ease-in-out;
+}
+.search-btns{
+    margin-left: 11.9%;
+    transition: all .2s ease-in-out;
+}
+.search-btn{
+    margin-left: 5px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: blue;
+    transition: all .2s ease-in-out;
+}
+.search-btn:hover{
+    cursor: pointer;
+    background-color: violet;
+    box-shadow: 0px 0px 5px 1px rgb(135, 143, 255);
+    transition: all .2s ease-in-out;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: .5; /* Firefox */
+  }
+
+.links{
+    display: flex;
+    padding-top: 25px;
+    margin-left: 76%;
+}
+
+.link-btn{
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: none;
+    color: blue;
+    background-color: white;
+    transition: all .2s ease-in-out;
+}
+.link-btn:hover{
+    background-color: violet;
+    border-color: white;
+    color:white;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1px rgb(135, 143, 255);
+    transition: all .2s ease-in-out;
+}
+
+.linkbar{
+    padding: 5px
+}
+
+.foot{
+    font-size: small;
+    color: rgba(4, 0, 252, 0.452);
+    position: absolute;
+    top: 92%;
+    left: 44.1%;
+}
+
+@media (max-width: 411px) {
+    .search-btns{
+        margin-left: 6.5%;
+    }
+    .search-btn{
+        padding: 10px 15px;
+    }
+
+    .links{
+        margin-left: 14%;
+    }
+
+    .link-btn{
+        padding: 10px 15px;
+    }
+
+    .search{
+        top: 20%;
+        left: 10%;
+    }
+
+    .searchbar{
+        width: 80%;
+        margin-right: 15px;
+    }
+
+    .adsearch{
+        top: 20%;
+        left: 10%;
+        margin-right: 30%;
+        
+    }
+
+    .adsearchbar{
+        width: 100%;
+        margin-bottom: 7%;
+    }
+
+    .logo{
+        width: 45%;
+        margin-left: 24%;
+    }
+
+    .adlogo{
+        width: 45%;
+        left: 10%;
+        top: 15%;
+    }
+
+    p{
+        font-size: 13px;
+    }
+
+    .foot{
+        font-size: 10px;
+        top: 92%;
+        left: 33.3%;
+    }
+}
+
+
+@media (width: 1366px) {
+    .search-btns{
+        margin-left: 11.9%;
+    }
+
+    .logo{
+        width: 45%; 
+        margin-left: 5.5%;
+    }
+}
+
+@media (min-width: 3440px) {
+    .search-btns{
+        margin-left: 28%;
+        margin-top: 1%;
+    }
+
+    .links{
+        margin-left: 90%;
+    }
+
+    .search{
+        top: 30%;
+        left: 35%;
+    }
+
+    .searchbar{
+        width: 80%;
+        margin-right: 15px;
+    }
+
+    .adsearch{
+        top: 30%;
+        left: 10%;
+        margin-right: 30%;
+    }
+
+    .adsearchbar{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .logo{
+        width: 50%;
+        margin-left: 17%;
+    }
+
+    .adlogo{
+        width: 25%;
+        left: 1%;
+        top: 1%;
+    }
+
+    .foot{
+        left: 45%;
+        top: 95%;
+    }
+}

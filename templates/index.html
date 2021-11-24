@@ -1,0 +1,23 @@
+{% extends ("layout.html")%}
+
+{% block body %}
+    <body>
+        <form action="https://google.com/search" class="search">
+            <img src="/static/Meta-logo.png" class="logo">
+            <input class="searchbar" type="text" placeholder="We track everything..." name="q">
+            <div class="search-btns">
+                <input class="search-btn" name="btnK" type="submit" value="Meta Search">
+                <input class="search-btn" name="btnI" type="submit" data-ved="0ahUKEwiNm6S0jYLrAhXslnIEHYv2B30QnRsIDg" value="I Am Feeling Lucky">
+            </div>
+        </form>
+        <div class="links">
+            <form class="linkbar" action="/image" method="GET">
+                <input class="link-btn" type="submit" value="Search Image">
+            </form>
+            <form class="linkbar" action="/advanced" method="GET">
+                <input class="link-btn" type="submit" value="Search Advanced">
+            </form>
+        </div>
+        <a class="foot">WE TRACK EVERYTHING</a>       
+    </body>
+{% endblock %}
