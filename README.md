@@ -1,3 +1,5 @@
-# Project 0
+# Project 0: Meta Search "I'm looking at you Zuckerberrrrg..." - Mr. Turner 
 
-Web Programming with Python and JavaScript
+Just a fun little project for school...
+
+Web Programming with CSS, HTML, & Python
