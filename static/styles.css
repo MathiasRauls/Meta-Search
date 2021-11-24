@@ -1,7 +1,7 @@
 
 
 body{
-    background-color: lightblue;
+    background-color: rgb(189, 198, 253);
     font-family: helvetica, serif;
     font-weight: bolder;
 }
@@ -34,7 +34,7 @@ body{
 }
 .searchbar{
     width: 51%;
-    background-color: cyan;
+    background-color: white;
     border: orangered;
     border-radius: 25px;
     border-color: white;
@@ -45,7 +45,7 @@ body{
 }
 .adsearchbar{
     width: 400px;
-    background-color: cyan;
+    background-color: white;
     border: orangered;
     border-radius: 20px;
     border-color: white;
